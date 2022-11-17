@@ -1,0 +1,46 @@
+<html>
+<head>
+<style>
+  
+       * {padding:0;
+    margin:0;}
+
+    body {background-color:white;
+    font-size: 90%;
+    background-image: url(../images/hot_logo.jpg);
+    background-attachment: fixed; /*Using this option, allows my wrapper move
+    up and down while my background bady remains static*/}
+    
+    div#wrapper {
+    width:940px; /*use 940px instead of 960*/
+    margin: 0 auto 0 auto;
+    /*height:995px; */  /* Never use height to automatically fit wrapper*/
+    /*background-color:lightgray;*/ /*I dont need it because I am having
+    opacity in the background*/
+    /*background:#eeeeee;*/
+    background:rgba(240, 240, 240, .7); /*Here only the background has an opacity
+    of .7  not the wrapper*/
+    padding: 10px;
+    /*margin: 20px auto;*/ /* use auto to center wrapper/box in my screen*/
+    border: 2px solid darkred;
+    /*opacity:.7;*/
+    overflow:hidden;
+    margin-top: 20px;
+    margin-bottom: 20px;}
+
+    h {font-size: 50px;
+    margin-left:150px;}
+
+    p {font-size: 30px;
+        color:red;
+        margin-left: 200px;}
+</style>
+</head>
+<body>
+<div id="wrapper">
+<main>
+</main>
+<h>Practice in Class 8: Diff, rollback, blame, patching code, updates</h>
+</div>
+</body>
+</html>
